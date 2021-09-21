@@ -2,7 +2,7 @@
 
 
 
-*avian_traits.csv*
+*data/avian_traits.csv*
 ```
 From: Global database of all bird species shows how body shape predicts lifestyle
 ref: Macroevolutionary convergence connects morphological form to ecological function in birds
