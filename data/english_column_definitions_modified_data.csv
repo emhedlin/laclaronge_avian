@@ -1,0 +1,55 @@
+column_name_english,description_english
+abundance,"Abundance of the tagged species; 0 - 10, TMTT (too many to tag), or CI1, CI2, CI3 for amphibians"
+audio_quality,Audio quality of the task (0 - 11)
+comment,Comments on the acoustic tag
+confidence,"Confidence in the identification of the tag (Confident, To Be Checked, Unknown - Far)"
+industry_noise,Average chronic industrial noise at the task level
+method,Method the recording was processed as
+Vocalization,"Vocalization type (Song, Call, Non-vocal) in minute interval 0"
+Interval,time interval in which the individual was first detected. Options are 0-1 min; 1-2 min; 2-3 min; 3-4 min; 4-5 min; 5-6 min; 6-7 min; 7-8 min; 8-9 min; 9-10 min
+noise,Average background noise at the task level
+rain,Average rain at the task level
+recording_date,The date of the recording (YYYY-MM-DD)
+recording_time,The time of the recording (HH:MM:SS)
+species_code,Species code (American Ornithological Society four-letter short code assigned to species for ARU tagging)
+species_individual_name,Distinct individual of a species
+transcriber,The user who transcribed the recording
+wind,Average wind at the task level
+task_status,The current state of the processing task
+latitude,Latitude
+location,The physical place on the landscape where the data was collected
+location_buffer_radius_m,Radius of the buffer around the location (in meters)
+longitude,Longitude
+organization,Organization acronym; the organization that the data belongs to
+project,Full name of the project; a project is the aggregation of media processed to answer a specific scientific question or implement a study design
+project_status,"The status of the project (Active, Test, Private, Map, Map + Report, Published)"
+scientific_name,"Binomial classification (Genus, species) of the species"
+species_class,Species class (taxonomic rank)
+species_english_name,English common name of the species
+species_french_name,French common name of the species
+location_*,"If split location is checked, the name will be split into new columns ..1, ..2, etc."
+species_comment,A comment about the species tag
+daily_min_temp,The daily mininum temperature at the nearest weather station
+daily_max_temp,The daily maximum temperature at the nearest weather station
+daily_mean_temp,The daily mean temperature at the nearest weather station
+daily_total_rain_mm,The daily total rainfall (in millimeters) at the nearest weather station
+daily_total_snow_cm,The daily total snowfall (in centimeters) at the nearest weather station
+daily_precipitation_mm,The daily precipitation (in millimeters) at the nearest weather station
+daily_snow_on_ground_cm,The daily accumulated snowfall (in centimeters) at the nearest weather station
+hourly_temp,The temperature (in Celsius) recorded at the nearest weather station at the nearest hour
+hourly_dew_point,The dewpoint (in Celsius) recorded at the nearest weather station at the nearest hour
+hourly_rel_humidity,The relative humidity (in percent concentration of water vapour present in the air) recorded at the nearest weather station at the nearest hour
+hourly_precipitation_mm,The accumalated rainfall (in millimeters) at the nearest weather station at the nearest hour
+hourly_wind_direction,The wind direction (in degrees) at the nearest weather station at the nearest hour
+hourly_wind_speed,The wind speed (in kilometers per hour) at the nearest weather station at the nearest hour
+hourly_visibility_km,The visibility (in kilometers) recorded at the nearest weather at the nearest hour
+hourly_station_pressure,The atmospheric pressure (in kilopascals) recorded at the nrest weather at the nearest hour
+hourly_humidex,The humidex or humidity index (in celsius) measures how hot the weather feels according to humidity and temperature recorded at the nrest weather at the nearest hour
+hourly_wind_chill,The windchill or lowering of temperature due to wind speed and air temperature (measured in celsius) recorded at the nearest weather at the nearest hour
+hourly_weather_attributes,The description of the hourly weather at the nearest hour. Options include: 
+daily_weather_station_nm,Name of the nearest weather station pulling daily weather conditions
+daily_weather_station_elevation,Elevation of the nearest weather station pulling daily weather conditions (in meters)
+daily_weather_station_distance,Distance of the nearest weather station pulling daily weather conditions (in kilometers)
+hourly_weather_station_nm,Name of the nearest weather station pulling houly weather conditions
+hourly_weather_station_elevation,Elevation of the nearest weather station pulling hourly weather conditions (in meters)
+hourly_weather_station_distance,Distance of the nearest weather station pulling daily metadata (in kilometers)
