@@ -1,4 +1,4 @@
-## Exploring drivers of avian diversity in a northern saskatchewan Lake system
+## Exploring drivers of avian diversity in a northern saskatchewan lake system
 
 <br />
 <br />
