@@ -24,7 +24,7 @@ As for the source code, you'll see that the 00_template.R script outlines some o
 │    └── 04_visualize.R
 ```
 
-Some times it's necessary to break the structure down further, in which case you can name scripts ```01a_section.R``` etc. If a script generates a new datafile, I like to number the data file the same as the script. So if ```01_load_clean_data.R``` cleans up and merges a few different csv's, then the newly saved data would be something like ```01_traits_det_merged.csv```. If there are issues with the data down the road, we know exactly where the source code is that generated this file.
+Sometimes it's necessary to break the structure down further, in which case you can name scripts ```01a_section.R``` etc. If a script generates a new datafile, I like to number the data file the same as the script. So if ```01_load_clean_data.R``` cleans up and merges a few different csv's, then the newly saved data would be something like ```01_traits_det_merged.csv```. If there are issues with the data down the road, we know exactly where the source code is that generated this file.
 
 
 <br />
