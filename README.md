@@ -47,6 +47,8 @@ Beak_PC2 = variation in beak shape
 <br />
 <br />
 
+## Metadata
+<br />
 **data/aaron.csv**
 
 ```
