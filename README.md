@@ -13,7 +13,7 @@ README.md                 <- in the base directory, the file that generates the 
 ```
 
 
-As for the source code, you'll see that the 00_template.R script outlines some of my preferred rationale for organize code. Instead of building one behemoth script that does all of the work for the project, I like to build separate scripts that perform specific tasks. Each script is numbered, because in most cases, the scripts do have a sequential nature. So for example, a common sequence of running code is:
+As for the source code, you'll see that the 00_template.R script outlines my preferred methods for organizing code. Instead of building one behemoth script that does all of the work for the project, I like to build separate scripts that perform specific tasks. Each script is numbered, because in most cases, the scripts do have a sequential nature. So for example, a common sequence of running code is:
 
 ```
 ├── src               
