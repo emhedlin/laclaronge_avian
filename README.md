@@ -28,6 +28,9 @@ Sometimes it's necessary to break the structure down further, in which case you 
 
 
 <br />
+
+
+## Metadata
 <br />
 
 **data/avian_traits.csv**
@@ -47,8 +50,6 @@ Beak_PC2 = variation in beak shape
 <br />
 <br />
 
-## Metadata
-<br />
 **data/aaron.csv**
 
 ```
