@@ -59,7 +59,7 @@ x <- spp_tally %>%
 
 # quick look at spatial variation in spp richness
 with(x,
-     plot(latitude, longitude, cex = n/(max(n)+1))
+     plot(longitude, latitude, cex = n/max(n), asp = 1)
 )
   
 
