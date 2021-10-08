@@ -10,7 +10,7 @@ aaron <- read_csv("data/aaron.csv") %>%
 
 steve <- read_csv("data/steve.csv") %>%
     # add new column to match aaron's island_id
-  mutate(island_id = str_sub(steve$location, 10))
+  mutate(island_id = str_sub(location, 10))
 
 
 # 1. Explore a few oddities -----------------------------------------------
