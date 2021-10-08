@@ -1,10 +1,7 @@
 library(tidyverse)
 
 
-aaron <- read_csv("data/aaron.csv") %>%
-  # for some reason \xa1 is attached to lat long
-  mutate(latitude = str_replace(latitude, "\xa1", ""),
-         longitude = str_replace(longitude, "\xa1", ""),)
+aaron <- read_csv("data/aaron.csv")
 
 
 
