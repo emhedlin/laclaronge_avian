@@ -45,6 +45,8 @@ df <- steve %>%
     left_join(select(aaron, -latitude, -longitude), by = "island_id")
 
 
+df$island_id
+write.csv(df, 'data/merged_full.csv')
 # species tally by island
 (spp_tally <- df %>%
   group_by(island_id) %>%
