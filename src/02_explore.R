@@ -30,10 +30,10 @@ dat %>%
 # Count and presence absence by island ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 n_pres <- dat %>%
-    # filter(!str_detect(foraging_niche, "Aquatic")) %>%    # uncomment this if you want to remove aquatic spp
+    filter(!str_detect(foraging_niche, "Aquatic")) %>%    # uncomment this if you want to remove aquatic spp
     expand(island_id, species_code) %>%
     left_join(
-        x %>%
+        dat %>%
         count(island_id, species_code),
         by = c("island_id", "species_code")
     ) %>%
@@ -49,6 +49,4 @@ n_pres %>%
                 basal_area_total, basal_area_living,
                 basal_area_dead, total_cwd_volume) %>%
             filter(!duplicated(island_id)),
-        by = "island_id") %>%
-    ggplot() +
-    geom_point(aes(x = total_species, y = time_since_fire))
+        by = "island_id")
